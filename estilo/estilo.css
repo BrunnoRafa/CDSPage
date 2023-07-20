@@ -4,24 +4,47 @@ html, body {
 }
 
 body {
-    display: flex;
-    justify-content: center;
+    position: relative;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-top: 10px;
+    margin: 10px auto 0;
     text-align: center;
 }
 
 .titulo {
+    margin-top: 20px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .icone-qr-code {
-    width: 140px;
     margin-top: 20px;
+}
+
+.instagram {
+    width: 150px;
+}
+
+.facebook,
+.google-maps {
+    width: 140px;
+}
+
+.whatsapp {
+    width: 160px;
+}
+
+.lista-redes-sociais {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape {
+    margin-top: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
